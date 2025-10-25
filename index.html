@@ -1,11 +1,139 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrey Zhitnikov</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 5%;
+    }
+    h1 {
+      margin-bottom: 0;
+      font-size: 2em;
+    }
+    h2 {
+      margin-top: 40px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .news-item {
+      margin-bottom: 10px;
+    }
+    .pub {
+      margin-bottom: 15px;
+    }
+    .pub img {
+      width: 120px;
+      height: 90px;
+      object-fit: cover;
+      float: left;
+      margin-right: 15px;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      header img {
+        margin-bottom: 15px;
+      }
+      .pub img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+      }
+    }
+  </style>
+</head>
 
 <body>
+  <div class="container">
+    <header>
+      <img src="images/AndreyZhitnikov.jpg" alt="Profile photo" />
+      <div>
+        <h1>Andrey Zhitnikov </h1>
+        <p><strong>Postdoctoral Scholar</strong><br>
+          Multi-Robot Systems Lab <a href="https://mrstechnion.github.io/">MRS</a>, Technion<br>
+          <!--a href="mailto:your.email@example.com">your.email@example.com</a-->
+        </p>
+      </div>
+    </header>
 
-<h1>Coming Soon... </h1>
+    <section id="about">
+      <p>
+        I'm currently a Postdoctoral Scholar in the Multi-Robot Systems (MRS) Lab, Technion. Prior to that, I was a one-year Postdoctoral Fellow in the Autonomous Navigation and Perception Lab (ANPL) at Technion. I  received a B.Sc. degree in Electrical Engineering from the School of Electrical Engineering at Tel Aviv University, Israel, in 2014, an M.Sc. degree in Electrical and Computer Engineering from Technion in 2018, and a Ph.D. degree from Technion Autonomous Systems Program (TASP) in 2024. My current research interests include planning under uncertainty in the robotics context, robot safety under uncertainty, kinodynamic motion planning, and game-theoretic multi-robot planning.
+      </p>
+    </section>
 
+    <section id="news">
+      <h2>News</h2>
+      <div class="news-item"><strong>July 2025:</strong> Joined the MRS Lab as a Postdoc.</div>
+      <div class="news-item"><strong>July 2024:</strong> Joined the ANPL Lab as a Postdoc.</div>
+      <div class="news-item"><strong>December 2024:</strong> Graduated with Ph.D. from Technion TASP.</div>
+    </section-->
+
+    <!--section id="publications">
+      <h2>Publications</h2>
+      <div class="pub">
+        <img src="images/pub_placeholder1.jpg" alt="Publication image" />
+        <p><strong>Title of the Paper 1</strong><br>
+        <em>Conference Name, 2025</em><br>
+        Author A, Author B, <strong>You</strong><br>
+        [<a href="#">PDF</a>] [<a href="#">Project Page</a>]
+        </p>
+      </div>
+
+      <div class="pub">
+        <img src="images/pub_placeholder2.jpg" alt="Publication image" />
+        <p><strong>Title of the Paper 2</strong><br>
+        <em>Journal Name, 2024</em><br>
+        Author A, <strong>You</strong>, Author C<br>
+        [<a href="#">PDF</a>] [<a href="#">Code</a>]
+        </p>
+      </div>
+    </section-->
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:andreyz@campus.technion.ac.il">andreyz@campus.technion.ac.il</a><br>
+        Office: Room 722, floor 7, Technion Campus, Zisapel building<br>
+        [<a href="https://scholar.google.com/citations?user=JlsCjioAAAAJ&hl=en">Google Scholar</a>] [<a href="https://github.com/andreyzhitnikov?tab=repositories">GitHub</a>] [<a href="https://www.linkedin.com/in/zhitnikov-andrey-30512331/">LinkedIn</a>]
+      </p>
+    </section>
+  </div>
 </body>
-
-</head>
 </html>
+
